@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.main h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
