@@ -1,0 +1,156 @@
+:root {
+  --neutral-white: #fffafb;
+  --neutral-black: #050505;
+  --neutral-gray: #4a4a4a;
+  --primary: #24126a;
+  --primary-lighter: #3d2892;
+  --secondary: #1ac3c3;
+  --secondary-lighter: #16e0e0;
+  --accent: #f55d3a;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #f55d3a;
+  font-size: 3rem;
+}
+nav p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.ify {
+  color: #f55d3a;
+}
+body {
+  margin: 200px;
+  margin-top: 0;
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  color: rgb(57, 10, 102);
+  align-items: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(57, 10, 102);
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.hero {
+  position: relative;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.hero figure {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  margin: 0;
+}
+
+.hero figure img {
+  width: 250px;
+  height: auto;
+  display: block;
+}
+.hero a {
+  margin-right: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #24126a;
+  box-shadow: 0 0 5px #24126a, 0 0 10px #24126a, 0 0 20px #24126a;
+}
+.hero h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #4a4a4a;
+  margin-bottom: 60px;
+  margin-right: 5;
+  max-width: 380px;
+  font-size: 1.5rem;
+}
+
+.stories {
+  margin: 125px;
+}
+.paramdam img {
+  margin: 5px;
+  float: left;
+}
+.box-orange {
+  border-radius: 4px;
+  position: absolute;
+  z-index: -1;
+  width: 100px;
+  height: 200px;
+  background-color: #f55d3a;
+}
+.stories h1 {
+  text-shadow: 0 0 10px #24126a, 0 0 1px #24126a, 0 0 1px #24126a;
+  font-size: 1.5rem;
+  color: #24126a;
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: none;
+}
+
+.paramdam {
+  margin-bottom: 200px;
+}
+.paramdam h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3d2c8d;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.senyales img {
+  float: right;
+  margin: 5px;
+}
+.box-blue {
+  :display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  margin-left: 524px;
+  border-radius: 4px;
+  z-index: -1;
+  width: 100px;
+  height: 200px;
+  background-color: #16e0e0;
+}
+.senyales h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3d2c8d;
+  margin: 0;
+  margin-bottom: 10px;
+}
+fdfdff .stories p {
+  font-size: 15px;
+  color: var(--clr-NeutralGray);
+  font-family: "Times New Roman", Times, serif;
+
+  line-height: 1.4;
+}
+.stories a {
+  color: #f55d3a;
+}
